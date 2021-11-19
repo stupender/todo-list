@@ -1,8 +1,160 @@
+html {
+    margin: 0 0;
+    padding: 0 0;
+    /* background: rgb(255,207,117);
+    background: linear-gradient(90deg, rgba(255,207,117,1) 0%, rgba(255,249,157,1) 20%, rgba(255,192,114,1) 100%); */
+    }
+
+body {
+    margin: 0 0;
+    padding: 0 0;
+    background-color: white;
+}
+
 header {
     height: 44px;
     background-color: #db4c3f;
 }
 
 h1 {
-    
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    line-height: 44px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin; 0 0;
+    padding: 0 0;
+}
+
+h2 {
+    font-family: Rubik, sans-serif;
+    font-weight: 900;
+    color: #db4c3f;
+    border-bottom: 1px solid #db4c3f;
+    /* text-align: center; */
+}
+
+p {
+    font-family: Rubik, sans-serif;
+}
+
+ol {
+    font-family: Rubik, sans-serif;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.listitem-selected {
+    background-color: #ececec;
+
+}
+
+table {
+    font-family: Rubik, sans-serif;
+    /* border: 1px solid #ececec; */
+}
+
+.table-date {
+    font-size: 12px;
+    /* font-weight: 300; */
+    /* transform: rotate(-45deg); */
+}
+
+th {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    text-align: left;
+    /* border: 1px solid #ececec; */
+}
+
+
+.action-column {
+    width: 100px;
+}
+
+td {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    /* border: 1px solid #ececec; */
+
+}
+
+button {
+    border: 1px solid #ececec;
+    font-size: 12px;
+
+}
+
+button.checkoff {
+    width: 20px;
+    height: 20px;
+    border-radius: 0px;
+    border: 1px solid #ececec;
+}
+
+button.checkoff:hover {
+    border: 1px solid #db4c3f;
+}
+
+button.new-action-input-button {
+    border: 1px solid #ececec;
+    margin-top: 20px;
+    padding: 10px 10px;
+    height: 40px;
+    border: 0;
+    margin-right: 20px;
+}
+
+button.add:hover {
+    /* border: 1px solid #db4c3f; */
+    color: #4caf50;
+}
+
+button.cancel:hover {
+    color: #db4c3f;
+}
+
+
+#new-action-input-text {
+    width: 325px;
+    height: 20px;
+    padding: 5px 5px;
+    margin: 0 0;
+    border-radius: 0;
+    border: 1px solid gray;
+}
+
+#new-action-input-buttons {
+    display: flex;
+}
+
+.new-action-input {
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+#sidebar {
+    /* width: 250px; */
+    padding-top: 35px;
+    padding-left: 35px;
+    background-color: #fafafa;
+}
+
+#listpane {
+    padding-top: 35px;
+    padding-left: 35px;
+
 }

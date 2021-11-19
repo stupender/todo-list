@@ -11,18 +11,48 @@
 </head>
 <body id="content">
     <header>
-        <h1>To Do List</h1>
+        <h1>DAILY ACCOUNTABILITY — CHECKOFF LIST</h1>
     </header>
     <main>
         <div id="sidebar">
-            <div class="listitem">
-                <p>Inbox</p>
-            </div>
+            <ol class="listitem">
+                <li class="listitem-selected">November 2021</li>
+            </ol>
         </div>
         <div id="listpane">
-            <h2>List Title</h2>
-
-
+            <h2>November 2021</h2>
+            <table>
+                <tr>
+                    <th class="action-column">ACTION LIST</th>
+                    <th><p class="table-date">MM/DD</p></th>
+                    <th><p class="table-date">MM/DD</p></th>
+                    <th><p class="table-date">MM/DD</p></th>
+                    <th><p class="table-date">MM/DD</p></th>
+                    <th><p class="table-date">MM/DD</p></th>
+                    <th><p class="table-date">MM/DD</p></th>                    <th><p class="table-date">MM/DD</p></th>
+                    <th><p class="table-date">MM/DD</p></th>
+                    <th><p class="table-date">MM/DD</p></th>
+                </tr>
+                <tr>
+                    <td class="action-column">Action #1</td>
+                    <td><button class="checkoff"></button></td>
+                    <td><button class="checkoff"></button></td>
+                    <td><button class="checkoff"></button></td>
+                    <td><button class="checkoff"></button></td>
+                    <td><button class="checkoff"></button></td>
+                    <td><button class="checkoff"></button></td>
+                    <td><button class="checkoff"></button></td>
+                    <td><button class="checkoff"></button></td>
+                    <td><button class="checkoff"></button></td>
+                </tr>
+            </table>
+            <div class="new-action-input">
+                <input id="new-action-input-text"></input>
+                <div id="new-action-input-buttons">
+                    <button class="new-action-input-button add">ADD ACTION</button>
+                    <button class="new-action-input-button cancel">CANCEL</button>        
+                </div>
+            </div>
         </div>
     </main>
     <script type="text/javascript" src="main.js"></script>
